@@ -10,7 +10,7 @@ apt-get update
 echo "##############################################################################"
 echo "#                          RYU DEPENDENCY CHECK                              #"
 echo "##############################################################################"
-apt-get install python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes python-eventlet -y
+apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes python-eventlet -y
 
 # Upgrade pip
 pip install -U pip 
