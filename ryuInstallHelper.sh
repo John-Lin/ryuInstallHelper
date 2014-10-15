@@ -26,7 +26,7 @@ cd $HOME
 git clone https://github.com/osrg/ryu.git
 
 echo "##############################################################################"
-echo "#                              BUILDING HONEYD                               #"
+echo "#                              BUILDING RYU                                  #"
 echo "##############################################################################"
 
 cd ryu; python ./setup.py install
